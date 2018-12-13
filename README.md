@@ -83,7 +83,7 @@ Let's start mruby/c programming.
 The first mruby/c program is blinking one LED.
 Through coding and executing this simple application, we can learn about programming way of mruby/c.
 
-Write the following program into IDE editor.
+Write the following program into IDE editor. About mruby/c methods such as "led" and "sleep_ms", refer to [Reference Manual](reference.md).
 
 ```ruby
 while true
@@ -97,6 +97,8 @@ end
  This image shows after creating "led1" project and "main.rb" file in mruby/c IDE.
 
 ![blinking a led](program01.png "Blinking a LED")
+
+
 
 
 ### Blinking two LEDs

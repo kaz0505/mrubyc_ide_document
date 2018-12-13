@@ -60,8 +60,46 @@ In "Writer" tab, set "mrbwrite" and "Port" boxes. These configurations affect to
 
 ![IDE Setup 2](ide_setup_2.png "mruby/c IDE Setup")
 
-
 ## Programming
 
+Mruby/c programming is completed by following steps.
 
+1. Create new project\
+One project has one or more mruby/c program files. All programs are executed simultaneously, which is called "concurrent execution.\
+Select [File]-[New]-[Project] menu, you can create new project.
+
+2. Create new mruby/c program\
+When microcontroller is activated(turn on the power or reset), it starts all mruby/c programs.\
+All filenames of mruby/c must be ended with ".rb".\
+Select [File]-[New]-[File] menu, you can create new file.
+
+3. Compile and transfer\
+Selecting [Execute]-[Write] menu, IDE builds mruby/c project and transfer compiled bytecode into microcontroller.
+
+### Blinking blue LED
+
+Let's start mruby/c programming.
+
+The first mruby/c program is blinking one LED.
+Through coding and executing this simple application, we can learn about programming way of mruby/c.
+
+Write the following program into IDE editor.
+
+```ruby
+while true
+  led 1
+  sleep_ms 500
+  led 0
+  sleep_ms 500
+end  
+```
+
+ This image shows after creating "led1" project and "main.rb" file in mruby/c IDE.
+
+![blinking a led](program01.png "Blinking a LED")
+
+
+### Blinking two LEDs
+
+### Concurrent execution
 

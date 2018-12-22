@@ -9,7 +9,7 @@ This environment provides mruby/c programming editor, compiler, and writer for m
 
 ## Hardware
 
-![PSoC5LP microcontroller](microcontroller.png "PSoC5LP microcontroller")
+![PSoC5LP microcontroller](images/microcontroller.png "PSoC5LP microcontroller")
 
 - Cypress PSoC5LP microcontroller
 
@@ -29,7 +29,7 @@ An appropriate firmware should be installed PSoC5LP microcontroller before mruby
 
 ## Software
 
-![IDE](ide.png "mruby/c IDE")
+![IDE](images/ide.png "mruby/c IDE")
 
 Mruby/c IDE(Integrated Development Environment) provides total programming environment such as editor, compiler and downloader. Developers write mruby code in IDE editor and compile mruby code into mruby bytecode which is executed in mruby/c VM. The compiled bytecode is transferred to microcontroller by USB cable.
 
@@ -51,14 +51,14 @@ In "Compiler" tab, set "mrbc" and "Options" boxes. These configurations affect t
 - "mrbc" : select mrbc executable file such as mrbc.exe(Windows) or mrbc(MacOS).
 - "Options" : Input "-E".
 
-![IDE Setup 1](ide_setup_1.png "mruby/c IDE Setup")
+![IDE Setup 1](images/ide_setup_1.png "mruby/c IDE Setup")
 
 In "Writer" tab, set "mrbwrite" and "Port" boxes. These configurations affect to mruby/c bytecode transferring. 
 
 - "mrbwrite" : select mrbc executable file such as mrbwrite.exe(Windows) or mrbwrite(MacOS).
 - "Port" : select one from listbox, usually its name contains "USB Serrial" or "tty" keyword.
 
-![IDE Setup 2](ide_setup_2.png "mruby/c IDE Setup")
+![IDE Setup 2](images/ide_setup_2.png "mruby/c IDE Setup")
 
 ## Programming
 
@@ -96,7 +96,7 @@ end
 
  This image shows after creating "led1" project and "main.rb" file in mruby/c IDE.
 
-![blinking a led](program01.png "Blinking a LED")
+![blinking a led](images/program01.png "Blinking a LED")
 
 
 

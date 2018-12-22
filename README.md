@@ -1,7 +1,7 @@
 
 # mruby/c programming environment
 
-This environment provides mruby/c programming editor, compiler, and write for microcontroller. We can implement device controlling software and execute on the board.
+This environment provides mruby/c programming editor, compiler, and writer for microcontroller. We can implement device controlling software and execute on the board.
 
 - If you have mruby/c ready microcontroler, go to **Software**.
 - If you have PSoC5LP microcontroler without mruby/c VM, go to **Firmware**.
